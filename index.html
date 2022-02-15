@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Proyecto Final</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='style.css'>
+        <link href="https: //fonts.googleapis.com/css2? family = Open + Sans & display = swap" rel =" stylesheet ">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#1">Home</a>
+                <a href="#2">Sobre Nosotros</a>
+                <a href="#3">Productos</a>
+                <a href="#4">Clientes</a>
+                <a href="#5">Servicios</a>
+                <a href="#6">Contacto</a>
+            </nav>
+            <section id="1"class="textos-header">
+                <h1> Supersito </h1>
+                <h2> Almacén Online </h2>
+            </section>
+            <div class="wave" div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div>
+        </header>
+
+        <main>
+            <section id="2">
+                <h2 class="titulo">Sobre Nosotros</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="imagenes/shop.png" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>1</span> Quienes Somos</h3>
+                        <p>Somos una empresa nueva que surgió en 2020 a raíz de la pandemia de Covid-19. Frente a ésta problemática, decidimos mudarnos al mundo digital.</p>
+                        <h3><span>2</span> Nuestro Objetivo</h3>
+                        <p>Nuestro objetivo es brindarle una experiencia simple y directa a la hora de realizar su compra. Desde la comodidad de su hogar.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="3">
+                <h2 class="titulo">Seleccione sus Productos</h2>
+                <div id="productoContenedor">
+                    <div class="producto" data-idproducto="Manzana" data-img="imagenes/manzana.png"
+                        data-des="Kilo de Manzana Rojas provenientes de Rio Negro" data-precio="200" data-cantidad="0"> 
+                        <img src="imagenes/manzana.png" alt="Manzana">
+                        <h2>Manzana</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Banana" data-img="imagenes/banana.png"
+                        data-des="Kilo de Banana provenientes de Ecuador" data-precio="200" data-cantidad="0">
+                        <img src="imagenes/banana.png" alt="Banana">
+                        <h2>Banana</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Naranja" data-img="imagenes/naranja.png" data-des="Kilo de Naranja de Jugo"
+                        data-precio="200" data-cantidad="0"> 
+                        <img src="imagenes/naranja.png" alt="Naranja">
+                        <h2>Naranja</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Piña" data-img="imagenes/piña.png"
+                        data-des="Kilo de Piña importada de Costa Rica" data-precio="300" data-cantidad="0"> 
+                        <img src="imagenes/piña.png" alt="Piña">
+                        <h2>Piña</h2>
+                        <h1>$ 300</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Palta" data-img="imagenes/palta.png"
+                        data-des="Kilo de Palta o Agüacate" data-precio="400" data-cantidad="0">
+                        <img src="imagenes/palta.png" alt="Palta">
+                        <h2>Palta</h2>
+                        <h1>$ 400</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Tomate" data-img="imagenes/tomate.png" data-des="Kilo de Tomate" data-precio="200" data-cantidad="0">
+                        <img src="imagenes/tomate.png" alt="Tomate">
+                        <h2>Tomate</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Lechuga" data-img="imagenes/lechuga.png" data-des="Kilo de Lechuga" data-precio="180" data-cantidad="0">
+                        <img src="imagenes/lechuga.png" alt="Lechuga">
+                        <h2>Lechuga</h2>
+                        <h1>$ 180</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Choclo" data-img="imagenes/choclo.png" data-des="Kilo de Choclo" data-precio="250" data-cantidad="0">
+                        <img src="imagenes/choclo.png" alt="Choclo">
+                        <h2>Choclo</h2>
+                        <h1>$ 250</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Carne" data-img="imagenes/carne.png" data-des="Kilo de Carne tipo Asado" data-precio="500" data-cantidad="0">
+                        <img src="imagenes/carne.png" alt="Carne">
+                        <h2>Carne</h2>
+                        <h1>$ 500</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Huevo" data-img="imagenes/huevos.png" data-des="Maple de Huevo"
+                        data-precio="200" data-cantidad="0"> 
+                        <img src="imagenes/huevos.png" alt="Huevo">
+                        <h2>Huevo</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar Maple</p>
+                    </div>
+                    <div class="producto" data-idproducto="Leche" data-img="imagenes/Leche.png"
+                        data-des="Litro de Leche Entera Remolac" data-precio="200" data-cantidad="0"> 
+                        <img src="imagenes/leche.png" alt="Leche">
+                        <h2>Leche</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Lt</p>
+                    </div>
+                    <div class="producto" data-idproducto="Pan" data-img="imagenes/pan.png"
+                        data-des="Kilo de Pan" data-precio="200" data-cantidad="0">
+                        <img src="imagenes/pan.png" alt="Pan">
+                        <h2>Pan</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Kg</p>
+                    </div>
+                    <div class="producto" data-idproducto="Vino" data-img="imagenes/vino.png" data-des="Litro de Vino Malbec Alfredo Roca" data-precio="300" data-cantidad="0">
+                        <img src="imagenes/vino.png" alt="Vino">
+                        <h2>Vino</h2>
+                        <h1>$ 300</h1>
+                        <p class="Comprar">Comprar por Lt</p>
+                    </div>
+                    <div class="producto" data-idproducto="Cerveza" data-img="imagenes/cerveza.png" data-des="Litro de Cerveza Palermo" data-precio="200" data-cantidad="0">
+                        <img src="imagenes/cerveza.png" alt="Cerveza">
+                        <h2>Cerveza</h2>
+                        <h1>$ 200</h1>
+                        <p class="Comprar">Comprar por Lt</p>
+                    </div>
+                    <div class="producto" data-idproducto="Cigarrillos" data-img="imagenes/cigarrillos.png" data-des="Paquete de Cigarrillos Marlboro" data-precio="300" data-cantidad="0">
+                        <img src="imagenes/cigarrillos.png" alt="Cigarrillos">
+                        <h2>Cigarrillos</h2>
+                        <h1>$ 300</h1>
+                        <p class="Comprar">Comprar</p>
+                    </div>
+                    <div class="producto" data-idproducto="Golosinas" data-img="imagenes/golosinas.png" data-des="Golosinas por Unidad" data-precio="50" data-cantidad="0">
+                        <img src="imagenes/golosinas.png" alt="Golosinas">
+                        <h2>Golosinas</h2>
+                        <h1>$ 50</h1>
+                        <p class="Comprar">Comprar</p>
+                    </div>
+                </div>
+
+                <div id="carritoDeCompras">
+                </div>
+
+                <div id="ticket">
+                    <h2 id="precioTotal">A Pagar: $0</h2>
+                    <br/>
+                    <img src="imagenes/carro.png" id="carrito">
+                    <h6>1. Ingrese su nombre y apellido</h6>
+                    <input type="text" id="name">
+                    <br/>
+                    
+                <div class="Compra">
+                    <h6>2. Seleccione su medio de pago</h6>
+                    <select name="Pago" id="pay">
+                        <option value=""></option>
+                        <option value="rapiPago">Rapipago</option>
+                        <option value="pagoFacil">PagoFacil</option>
+                        <option value="creditCard">Tarjeta de Credito</option>
+                        <option value="debitCard">Tarjeta de Débito</option>
+                        <option value="dolarPay">Pagar con Dolar</option>
+                    </select>
+
+                        <div id="imgPay">
+                        </div>
+                    <button type="button" id="btnCompra">Comprar</button>
+                </div>
+                    
+                <div id="saludo">
+                </div>
+
+                <div id="dolarCont">
+                </div>
+
+            </section>
+            <section id="4">
+                <h2 class="titulo">¿Que dicen nuestros Clientes?</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="imagenes/face 1.jpg">
+                        <div class="contenido-texto-card">
+                            <h4>Elon Musk (CEO Tesla Motors) </h4>
+                            <p>"Supersito es una empresa de mi interés. A futuro deseo tener un Supersito en Marte"</p>
+                        </div>
+                    </div>                        
+                    <div class="card">
+                        <img src="imagenes/face 2.png">
+                        <div class="contenido-texto-card">
+                            <h4>Tim Cook (CEO Apple) </h4>
+                            <p>"Nada como Supersito, cambió mi vida. Estamos trabajando en un AppSupersito para Apple Store"</p>
+                        </div>
+                    </div>                
+            </section>
+            <section id="5" class="about-services">
+                <div class="contenedor">
+                    <h2 class="titulo">Nuestros Servicios</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="imagenes/carro.png">
+                            <h3>Compra Online</h3>
+                            <p>Usted podra realizar la compra desde su pc o su dispositivo movil.</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="imagenes/card.png">
+                            <h3>Formas de pago</h3>
+                            <p>Aceptamos todas las formas de pago y tarjetas crédito, débito e incluso en dolares</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="imagenes/enviogratis.png">
+                            <h3>Envio Gratis</h3>
+                            <p>No se preocupe por el envio de los productos, corre por nuestra cuenta.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="6">
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Teléfono</h4>
+                    <p>0800-666-4467</p>
+                </div>            
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>supersito@org.com</p>
+                </div>        
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Joel Hernández Coder | Steve Jobs </h2>
+        </footer>
+    </body>    
+
+    <script src='main.js'></script>
+    
+    </html>
